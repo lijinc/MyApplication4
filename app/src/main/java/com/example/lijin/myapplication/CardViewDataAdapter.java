@@ -3,6 +3,7 @@ package com.example.lijin.myapplication;
 /**
  * Created by LIJIN on 12/23/2014.
  */
+
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,7 +13,6 @@ import android.widget.TextView;
 
 public class CardViewDataAdapter extends RecyclerView.Adapter<CardViewDataAdapter.ViewHolder> {
     public String[] mDataset;
-
 
 
     // Provide a suitable constructor (depends on the kind of dataset)
@@ -56,6 +56,7 @@ public class CardViewDataAdapter extends RecyclerView.Adapter<CardViewDataAdapte
 
         public TextView tvtinfo_text;
         public ImageView pic;
+
         public ViewHolder(View itemLayoutView) {
             super(itemLayoutView);
             tvtinfo_text = (TextView) itemLayoutView
